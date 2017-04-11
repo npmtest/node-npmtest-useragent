@@ -1,1 +1,40 @@
-{     "devDependencies": {         "useragent": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-useragent",     "homepage": "https://github.com/npmtest/node-npmtest-useragent",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-useragent.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [useragent (v2.1.13)](https://github.com/3rd-Eden/useragent#readme) [![npm package](https://img.shields.io/npm/v/npmtest-useragent.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-useragent) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-useragent.svg)](https://travis-ci.org/npmtest/node-npmtest-useragent)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "useragent": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-useragent",
+    "keywords": [
+        "coverage",
+        "test",
+        "useragent"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_useragent.js",
+    "name": "npmtest-useragent",
+    "nameAlias": "npmtest_useragent",
+    "nameOriginal": "npmtest-useragent",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-useragent.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
