@@ -1,7 +1,7 @@
 # test coverage for  [useragent (v2.1.13)](https://github.com/3rd-Eden/useragent#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-useragent.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-useragent) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-useragent.svg)](https://travis-ci.org/npmtest/node-npmtest-useragent)
 #### Fastest, most accurate & effecient user agent string parser, uses Browserscope's research for parsing
 
-[![NPM](https://nodei.co/npm/useragent.png?downloads=true)](https://www.npmjs.com/package/useragent)
+[![NPM](https://nodei.co/npm/useragent.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/useragent)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-useragent/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-useragent/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-useragent/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-useragent/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-useragent/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-useragent/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-useragent/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-useragent/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-useragent/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-useragent/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-useragent%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-useragent/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-useragent/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-useragent/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-useragent/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-useragent%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-useragent/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-useragent/build/test-report.html](https://npmtest.github.io/node-npmtest-useragent/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-useragent/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-useragent/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-useragent/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-useragent/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-useragent/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-useragent/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-useragent/build/screenCapture.npmPackageListing.svg)
 
@@ -76,12 +82,10 @@
     "main": "./index.js",
     "maintainers": [
         {
-            "name": "v1",
-            "email": "info@3rd-Eden.com"
+            "name": "v1"
         },
         {
-            "name": "3rdeden",
-            "email": "npm@3rd-Eden.com"
+            "name": "3rdeden"
         }
     ],
     "name": "useragent",
@@ -90,7 +94,6 @@
         "test",
         "update"
     ],
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/3rd-Eden/useragent.git"
