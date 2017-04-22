@@ -1,4 +1,7 @@
-# test coverage for  [useragent (v2.1.13)](https://github.com/3rd-Eden/useragent#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-useragent.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-useragent) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-useragent.svg)](https://travis-ci.org/npmtest/node-npmtest-useragent)
+# npmtest-useragent
+
+#### basic test coverage for  [useragent (v2.1.13)](https://github.com/3rd-Eden/useragent#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-useragent.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-useragent) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-useragent.svg)](https://travis-ci.org/npmtest/node-npmtest-useragent)
+
 #### Fastest, most accurate & effecient user agent string parser, uses Browserscope's research for parsing
 
 [![NPM](https://nodei.co/npm/useragent.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/useragent)
@@ -104,7 +107,8 @@
         "test": "mocha $(find test -name '*.test.js')",
         "update": "node ./bin/update.js"
     },
-    "version": "2.1.13"
+    "version": "2.1.13",
+    "bin": {}
 }
 ```
 
